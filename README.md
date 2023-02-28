@@ -12,6 +12,6 @@ paste a guid into the editor:
 src\pages\lexical\nodes\MetaGuidNode.js
 
       function $createMetaGuidNode(text = ''){
-          const n = new MetaGuidNode(text); // <-- breakpoint here, the step over
+          const n = new MetaGuidNode(text); // <-- breakpoint here, then step over
           return $applyNodeReplacement(new MetaGuidNode(text));
       }
