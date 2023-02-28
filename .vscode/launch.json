@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch localhost:8000",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "reloadOnAttach": true,
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceFolder}",
+            "timeout": 5,
+            "enableCRAWorkaround": true,
+            "pathMappings": [
+                {
+                    "url": "file:///D:/offline_projects/pindap/frontend/src/components/ui/headers/standard-header.js",
+                    "path": "${workspaceFolder}/src/components/ui/standard-header.js"
+                }
+            ]
+        }
+    ]
+}

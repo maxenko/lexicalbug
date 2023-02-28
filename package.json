@@ -1,0 +1,24 @@
+{
+  "name": "lexicalbug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "lexicalbug",
+  "author": "Max Enko",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lexical/react": "^0.8.1",
+    "gatsby": "^5.7.0",
+    "lexical": "^0.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
